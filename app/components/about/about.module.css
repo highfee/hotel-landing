@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-right: var(--main-spacing-inline);
+  background: var(--sec-bg);
 }
 
 .container img {

@@ -5,6 +5,11 @@
   padding-inline: var(--main-spacing-inline);
   background: var(--main-bg);
 }
+@media (prefers-color-scheme: light) {
+  .container {
+    background: var(--sec-bg);
+  }
+}
 
 .side {
   position: absolute;
