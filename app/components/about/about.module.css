@@ -46,10 +46,10 @@
     border: 1px solid white;
     background: transparent;
   }
-  /* .container a:hover {
-    border: 0;
-    background: var(--main-button);
-  } */
+
+  .container {
+    background: var(--main-bg);
+  }
 }
 
 @media screen and (max-width: 1200px) {
