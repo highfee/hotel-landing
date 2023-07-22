@@ -13,7 +13,7 @@ const About = () => {
     <div className={styles.container}>
       <section className={styles.about__image}>
         <Image
-          src="/images/outside.jpg "
+          src="/images/outside.jpg"
           alt=""
           width="500"
           height="500"
