@@ -91,3 +91,26 @@
 .link a:hover {
   background: var(--main-button-light);
 }
+
+@media screen and (max-width: 1600px) {
+  .side {
+    position: static;
+    width: 450px;
+    height: 450px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (max-width: 900px) {
+  .side {
+    display: none;
+  }
+  .container {
+    display: block;
+    height: 400px;
+  }
+}

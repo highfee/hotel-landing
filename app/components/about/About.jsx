@@ -12,7 +12,13 @@ const About = () => {
   return (
     <div className={styles.container}>
       <section className={styles.about__image}>
-        <Image src="/images/outside.jpg " alt="" width="500" height="500" />
+        <Image
+          src="/images/outside.jpg "
+          alt=""
+          width="500"
+          height="500"
+          // layout="fill"
+        />
       </section>
       <section>
         <h2 className={ds.className}>About</h2>
