@@ -1,0 +1,49 @@
+:root {
+  --main-bg: #fff;
+  --primary-text: #161616;
+  --header-text: #121211;
+  --main-spacing-inline: 5%;
+  --main-button: lime;
+  --main-button-light: rgba(0, 255, 0, 0.704);
+  --padding-y-main: 100px;
+  --white: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg: #161616;
+    --primary-text: #e7e7e5;
+    --primary-text-dark: #161616;
+    --header-text: #fff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--main-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark light;
+  }
+  body {
+    background: var(--main-bg);
+  }
+}

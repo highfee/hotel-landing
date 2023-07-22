@@ -1,0 +1,24 @@
+.container {
+  max-width: 1000px;
+  padding-inline-start: var(--main-spacing-inline);
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20%; */
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  color: var(--header-text);
+  /* color: hotpink; */
+  font-size: 18px;
+  /* display: none; */
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo img {
+    filter: invert(20) brightness(1000);
+  }
+}
