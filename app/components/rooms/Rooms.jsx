@@ -47,7 +47,7 @@ const Rooms = () => {
         </div>
         <div className={styles.card}>
           <div className={styles.card__image}>
-            <Image src="/images/1.jpg" width="400" height="500" />
+            <Image src="/images/2.jpg" width="400" height="500" />
             <Link href="" className={ds.className}>
               <div className={styles.overlay}>Show Room</div>
             </Link>
@@ -66,7 +66,7 @@ const Rooms = () => {
         </div>
         <div className={styles.card}>
           <div className={styles.card__image}>
-            <Image src="/images/1.jpg" width="400" height="500" />
+            <Image src="/images/3.jpg" width="400" height="500" />
             <Link href="" className={ds.className}>
               <div className={styles.overlay}>Show Room</div>
             </Link>
@@ -85,7 +85,7 @@ const Rooms = () => {
         </div>
         <div className={styles.card}>
           <div className={styles.card__image}>
-            <Image src="/images/1.jpg" width="400" height="500" />
+            <Image src="/images/4.jpg" width="400" height="500" />
             <Link href="" className={ds.className}>
               <div className={styles.overlay}>Show Room</div>
             </Link>

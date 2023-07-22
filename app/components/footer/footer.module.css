@@ -1,0 +1,39 @@
+.container {
+  height: 200px;
+  background: var(--white);
+  padding-inline: calc(var(--main-spacing-inline) * 2);
+  display: grid;
+  place-items: center;
+}
+
+.container section > div:first-child {
+  display: flex;
+  gap: 3rem;
+  font-size: 20px;
+}
+.container section > div:first-child a {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.container section > div:first-child a::after {
+  position: absolute;
+  content: "";
+  padding: 1px;
+  background: #333;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+}
+
+.container section > div:first-child a:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: #333;
+  }
+}

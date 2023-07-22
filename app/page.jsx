@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import "@/public/styles.css";
 import Rooms from "./components/rooms/Rooms";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Hero />
       <Rooms />
       <About />
-      <div style={{ height: "100vh" }}></div>
+      <Footer />
     </main>
   );
 }
